@@ -252,6 +252,28 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Date_Due__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date Due</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Reported__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date Reported</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -259,6 +281,7 @@
     </fields>
     <fields>
         <fullName>EngineeringReqNumber__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
         <length>12</length>
@@ -325,6 +348,7 @@
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Potential Liability</label>
         <required>false</required>
@@ -364,6 +388,7 @@
     </fields>
     <fields>
         <fullName>Product__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Product</label>
         <required>false</required>
@@ -431,6 +456,7 @@
     </fields>
     <fields>
         <fullName>SLAViolation__c</fullName>
+        <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>SLA Violation</label>
         <required>false</required>
@@ -510,6 +536,21 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Vehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Vehicle</label>
+        <referenceTo>Vehicle__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
@@ -592,6 +633,6 @@
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>https://na1.salesforce.com/opp/oppedit.jsp?accid={!Account_ID}&amp;opp3=Up-sell+/+Cross-sell&amp;opp5=Existing+Customer&amp;opp6=Customer+Support</url>
+        <url>https://na1.salesforce.com/opp/oppedit.jsp?accid={!Account.Id}&amp;opp3=Up-sell+/+Cross-sell&amp;opp5=Existing+Customer&amp;opp6=Customer+Support</url>
     </webLinks>
 </CustomObject>
