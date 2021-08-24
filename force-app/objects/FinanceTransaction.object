@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <inlineHelpText>Parent account of the reference entity</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AdjustmentAmount</fullName>
+        <inlineHelpText>The adjustment contributing to the transaction&apos;s subtotal</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyAmount</fullName>
+        <inlineHelpText>Define this value based on any currency conversion needed for the total amount with tax.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyBalance</fullName>
+        <inlineHelpText>Define this value based on any currency conversion needed for the resulting balance.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyFxDate</fullName>
+        <inlineHelpText>Date used to determine the foreign exchange rate. Define this value to use later when you calculate currency conversions.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyFxRate</fullName>
+        <inlineHelpText>Rate of exchange according to the Base Currency FX Date. Define this value to use later when you calculate currency conversions.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>BaseCurrencyIsoCode</fullName>
+        <inlineHelpText>Currency of the country defined for this account. Define this value to use later when you calculate currency conversions.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>ChargeAmount</fullName>
+        <inlineHelpText>The charge contributing to the transaction&apos;s subtotal</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>CreationMode</fullName>
+        <inlineHelpText>The process used to create the finance transactions</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>DestinationEntityId</fullName>
+        <inlineHelpText>Target entity for reference entities that have made allocations</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DueDate</fullName>
+        <inlineHelpText>Date when the invoice is due</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>EffectiveDate</fullName>
+        <inlineHelpText>The date when the financial transaction takes effect</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>EventAction</fullName>
+        <inlineHelpText>The financial action that caused the finance transaction</inlineHelpText>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>EventType</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemIntegrationMode</fullName>
+        <inlineHelpText>The type of the external financial system used to recognize the finance transaction.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemIntegrationStatus</fullName>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemName</fullName>
+        <inlineHelpText>The name of the external financial system used to recognize the finance transaction.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>FinanceSystemTransactionNumber</fullName>
+    </fields>
+    <fields>
+        <fullName>ImpactAmount</fullName>
+        <inlineHelpText>The finance transaction&apos;s impact on the customer&apos;s finances</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>LegalEntityId</fullName>
+        <inlineHelpText>Legal entity associated with the finance transaction. This is an optional lookup that you can add to associate the finance transaction to GL rules for external ledger processing.</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OriginalCreditGlAccountName</fullName>
+        <inlineHelpText>The finance transaction&apos;s credit GL account name when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalCreditGlAccountNumber</fullName>
+        <inlineHelpText>The finance transaction&apos;s credit GL account number when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalDebitGlAccountName</fullName>
+        <inlineHelpText>The finance transaction&apos;s debit GL account name when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalDebitGlAccountNumber</fullName>
+        <inlineHelpText>The finance transaction&apos;s debit GL account number when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalEventAction</fullName>
+        <inlineHelpText>The finance transaction&apos;s event action when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalEventType</fullName>
+        <inlineHelpText>The finance transaction&apos;s event type when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalFinanceBookName</fullName>
+        <inlineHelpText>The finance transaction&apos;s finance book name when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalFinancePeriodEndDate</fullName>
+        <inlineHelpText>The finance transaction&apos;s finance period end date when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalFinancePeriodName</fullName>
+        <inlineHelpText>The finance transaction&apos;s finance period name when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalFinancePeriodStartDate</fullName>
+        <inlineHelpText>The finance transaction&apos;s finance period start date when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalFinancePeriodStatus</fullName>
+        <inlineHelpText>The finance transaction&apos;s finance period status when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalGlRuleName</fullName>
+        <inlineHelpText>The finance transaction&apos;s GL rule name when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalGlTreatmentName</fullName>
+        <inlineHelpText>The finance transaction&apos;s GL treatment name when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OriginalReferenceEntityType</fullName>
+        <inlineHelpText>The finance transaction&apos;s reference entity type when the finance transaction was created.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentReferenceEntityId</fullName>
+        <inlineHelpText>The parent object of the reference entity</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReferenceEntityId</fullName>
+        <inlineHelpText>The financial object that was created or updated as a result of a customer action</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReferenceEntityType</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ResultingBalance</fullName>
+        <inlineHelpText>The balance of your reference entity as a result of the event action</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>SourceEntityId</fullName>
+        <inlineHelpText>Source entity for reference entities that have made allocations</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+        <inlineHelpText>Total of the charge amount and adjustment. Doesn&apos;t include the tax amount.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>TaxAmount</fullName>
+        <inlineHelpText>The total amount of tax for the change made to your reference entity as a result of the event action</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>TotalAmountWithTax</fullName>
+        <inlineHelpText>The subtotal plus the tax amount</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>TransactionDate</fullName>
+        <inlineHelpText>The date when the finance transaction occurred</inlineHelpText>
+    </fields>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>Name</columns>
+        <columns>TotalAmountWithTax</columns>
+        <columns>ReferenceEntity</columns>
+        <columns>TransactionDate</columns>
+        <columns>EffectiveDate</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Finance Transactions</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ReferenceEntity</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EventAction</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EventType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ImpactAmount</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ReferenceEntity</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EventAction</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EventType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EffectiveDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ImpactAmount</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ReferenceEntity</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EventAction</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EventType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EffectiveDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ImpactAmount</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ReferenceEntity</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EventAction</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EventType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ImpactAmount</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>
