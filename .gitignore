@@ -21,3 +21,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.idea/vcs.xml
+/force-app/matchingRules/
+/force-app/managedContentTypes/
+/force-app/reports/
+/force-app/translations/
+/force-app/reportTypes/
+/force-app/notificationTypeConfig/
+/force-app/profilePasswordPolicies/
+/force-app/profileSessionSettings/
+/force-app/settings/
+/force-app/topicsForObjects/
+/force-app/samlssoconfigs/
+/force-app/milestoneTypes/
+/force-app/standardValueSets/
+/force-app/remoteSiteSettings/
+/force-app/iframeWhiteListUrlSettings/
+/force-app/homePageLayouts/
+/force-app/duplicateRules/
+/force-app/communities/
+/force-app/cleanDataServices/
+/force-app/appMenus/
+/force-app/apexEmailNotifications/
